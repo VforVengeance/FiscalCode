@@ -4,6 +4,6 @@ public class Main {
 
         User u = new User("Giuseppe", "Marchese", 1997);
         System.out.println(u.toString());
-        System.out.println("Formattted Name: "+u.getFormattedName());
+        System.out.println("Fiscal Code: "+u.getFiscalCode());
     }
 }
