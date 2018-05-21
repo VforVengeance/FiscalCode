@@ -23,8 +23,12 @@ public class User {
         return surname.substring(0, 3);
     }
 
-    public int getbDay(){
+    public int getBornYear(){
         bornYear = bornYear%100;
         return bornYear;
+    }
+
+    public String getFiscalCode(){
+        return getName()+" "+getSurname()+" "+getBornYear();
     }
 }
